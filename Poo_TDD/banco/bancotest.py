@@ -2,7 +2,7 @@
 # conta > saldo, limite
 class BancoConta():
     
-    def __init__(self, conta, saldo, limite=500):
+    def __init__(self, conta, saldo=0, limite=500):
         self.conta = conta
         self.saldo = saldo
         self.limite = limite
